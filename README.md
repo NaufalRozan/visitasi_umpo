@@ -70,7 +70,7 @@ Aplikasi berbasis web untuk manajemen proses visitasi dan akreditasi di Universi
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
-    DB_DATABASE=visitasi_unipol
+    DB_DATABASE=visitasi_umpo
     DB_USERNAME=root
     DB_PASSWORD=
     ```
