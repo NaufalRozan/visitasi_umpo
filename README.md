@@ -1,6 +1,6 @@
 <p align="center">
     <a href="#">
-        <img src="https://akupintar.id/documents/20143/0/Universitas-Muhammadiyah-Ponorogo.png/4fdcd695-13b3-1682-3b70-dfe76d29222f?version=1.0&t=1535017350970&imageThumbnail=1" width="200" alt="Unipol Logo">
+        <img src="https://akupintar.id/documents/20143/0/Universitas-Muhammadiyah-Ponorogo.png/4fdcd695-13b3-1682-3b70-dfe76d29222f?version=1.0&t=1535017350970&imageThumbnail=1" width="200" alt="Umpo Logo">
     </a>
 </p>
 
@@ -42,7 +42,7 @@ Aplikasi berbasis web untuk manajemen proses visitasi dan akreditasi di Universi
 
      ```bash
      git clone https://github.com/NaufalRozan/visitasi_umpo.git
-     cd visitasi_unipol
+     cd visitasi_umpo
      ```
 
 2. **Install dependensi PHP**
