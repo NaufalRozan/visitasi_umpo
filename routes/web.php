@@ -15,6 +15,7 @@ use App\Http\Controllers\SubUnitController;
 
 // Route ke halaman login
 Route::get('/', [ProdiLoginController::class, 'index'])->name('home');
+Route::get('detail_item/{id}/view', [DetailItemController::class, 'view'])->name('detail_item.view');
 
 // Route dashboard yang hanya bisa diakses jika user telah login
 Route::get('/dashboard', function () {
@@ -66,7 +67,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/detail_item/download/{id}', [DetailItemController::class, 'download'])->name('detail_item.download');
     Route::post('/detail_item/update-order', [DetailItemController::class, 'updateOrder'])->name('detail_item.updateOrder');
     Route::get('/detail/{substandar_id}', [DetailItemController::class, 'showDetails'])->name('detail.showDetails');
-    Route::get('detail_item/{id}/view', [DetailItemController::class, 'view'])->name('detail_item.view');
+
 
 
     // Resume Routes
